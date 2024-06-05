@@ -1,0 +1,30 @@
+.settings-panel {
+    padding: 18px 16px;
+    display: grid;
+    grid-template-rows: max-content auto;
+    row-gap: 39px;
+    overflow-y: auto;
+    height: 90vh;
+
+    &__header {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    &__body {
+        display: grid;
+        grid-auto-flow: row;
+        row-gap: 22.5px;
+    }
+
+    &__body-group {
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: left;
+        row-gap: 34px;
+        align-items: start;
+    }
+}

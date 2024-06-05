@@ -1,0 +1,20 @@
+.main-panel {
+    display: grid;
+    grid-template-rows: 48px auto;
+
+    &__body {
+        padding: 24px;
+        display: grid;
+        grid-auto-flow: row;
+        grid-auto-rows: max-content;
+        row-gap: 15px;
+    }
+}
+
+.app-launcher {
+    &-apps {
+        display: grid;
+        justify-content: left;
+        justify-items: left;
+    }
+}

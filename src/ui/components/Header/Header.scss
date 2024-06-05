@@ -1,0 +1,25 @@
+@use "../../styles/vars";
+
+.header {
+    height: vars.$headerHeight;
+    align-content: center;
+    display: grid;
+    grid-template-columns: max-content max-content auto max-content;
+    column-gap: 8px;
+    align-items: center;
+    justify-items: center;
+
+    &__logo {
+        display: grid;
+        grid-auto-flow: column;
+        column-gap: 8px;
+        align-items: center;
+    }
+
+    &__actions {
+        display: grid;
+        grid-auto-flow: column;
+        align-items: center;
+        align-content: center;
+    }
+}

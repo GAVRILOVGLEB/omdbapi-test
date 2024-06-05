@@ -1,0 +1,4 @@
+.eslintrc.js
+.prettierrc
+node_modules/
+public/

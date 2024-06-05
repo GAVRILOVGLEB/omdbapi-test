@@ -1,0 +1,15 @@
+.search {
+    position: relative;
+    max-width: 610px;
+    width: 100%;
+
+    &-history {
+        background: #ffffff;
+        border: 1px solid #ccc;
+        position: absolute;
+        top: 32px;
+        width: 100%;
+        z-index: 1;
+        border-radius: 5px;
+    }
+}

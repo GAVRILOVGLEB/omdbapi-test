@@ -1,0 +1,17 @@
+.command-bar {
+    grid-auto-flow: column;
+    display: grid;
+    justify-content: space-between;
+    padding: 0 16px;
+    align-content: center;
+    align-items: center;
+    column-gap: 16px;
+    overflow-x: auto;
+
+    &__group {
+        display: grid;
+        grid-auto-flow: column;
+        column-gap: 8px;
+        width: max-content;
+    }
+}

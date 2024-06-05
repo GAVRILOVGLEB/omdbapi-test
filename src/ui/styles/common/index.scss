@@ -1,0 +1,21 @@
+@import "./normalize.min.css";
+@import "./reset.css";
+
+#root {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#appError {
+    @extend #root;
+    margin: auto auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-wrapper {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}

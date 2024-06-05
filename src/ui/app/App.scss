@@ -1,0 +1,23 @@
+.app {
+    &__layout {
+        display: grid;
+        grid-template-columns: 48px auto max-content;
+        height: 100%;
+    }
+
+    &__main {
+        display: grid;
+        grid-template-rows: max-content auto;
+    }
+
+    &__body {
+        display: grid;
+        grid-template-columns: auto max-content;
+    }
+
+    &__content {
+        overflow: auto;
+        padding: 38px 24px;
+        height: calc(100dvh - 100px);
+    }
+}
